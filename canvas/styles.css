@@ -1,20 +1,29 @@
-#content-wrap{
+.content-wrap{
     height: 500px;
     background-color: rgba(140, 232, 255, 0.623);
     border: dashed 1px rgb(20, 10, 116);
     padding: 5px;
     position: relative;
+    margin-bottom: 50px;
 }
 
-canvas{
+.canvas-wrap{
     position: absolute;
     top: 0;
     left: 0;
-    height: 500px;
-    width: auto;
-    z-index: 50;
 }
-#drawingOptions{
+
+.edit-button{
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.middleman{
+    position: relative;
+}
+
+.drawingOptions{
     position: absolute;
     bottom: 0;
     right: 0;
@@ -37,4 +46,12 @@ canvas{
     border-left-width: 1px;
     border-left-style: solid;
     border-color: #dddddd;
+}
+
+button{
+    margin: 5px;
+}
+
+#mindleman{ 
+    position: relative;
 }
