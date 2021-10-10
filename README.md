@@ -130,7 +130,7 @@ description: "defines, whether the toolbar is rendered on the top or on the bott
 | :-----------------: | :-----------------------: |
 | ![top](img/top.png) | ![bottom](img/bottom.png) |
 
-### <a name="otrapptb"></a> toolbar.alignmentProcessed.posY
+### <a name="otrapptb"></a> toolbar.alignmentProcessed.posToBorder
 
 ```javascript
 type: String
